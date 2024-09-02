@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body align="center" >
+    <h2>Student Registration Form</h2>
+    <form>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>
+                    <label for="firstName">First Name</label>
+                </td>
+                <td>
+                    <input id="firstName" name="firstName" type="text" placeholder="Enter your first name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastName">Last Name</label>
+                </td>
+                <td>
+                    <input id="lastName" name="lastName" type="text" placeholder="Enter your last name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>
+                    <input id="email" name="email" type="email" placeholder="Enter your E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DOB">Date of Birth</label>
+                </td>
+                <td>
+                    <input id="DOB" name="DOB" type="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">Username</label>
+                </td>
+                <td>
+                    <input id="username" name="username" type="text" placeholder="Enter your username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input id="password" name="password" type="password" placeholder="Enter your password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="course">Select Your Course</label>
+                </td>
+                <td>
+                    <select id="course" name="course" required>
+                        <option value="" disabled selected>Select a course</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<footer>
+    <a href="index.html">Back to Index</a>
+</footer>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body align="center" >
+    <h2>Survey Form</h2>
+    <form>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input id="Name" name="Name" type="text" placeholder="Enter your name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input id="age" name="age" type="number" placeholder="Enter your age" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sports">Select Your favourite sports</label>
+                </td>
+                <td>
+                    <select id="sports" name="sports" required >
+                        <option value="" disabled selected>Your favourite type of Sports</option>
+                        <option value="Indoor">Indoor</option>
+                        <option value="Outdoor">Outdoor</option>
+                        <option value="Both">Both</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Favourite Sport to Watch</label>
+                </td>
+                <td>
+                    <input id="text" name="text" type="text"  required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="text1">Favourite Sport to Play</label>
+                </td>
+                <td>
+                    <input id="text1" name="text" type="text"  required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text2">Favourite Sport Person</label>
+                </td>
+                <td>
+                    <input id="text2" name="text" type="text"  required>
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td><label for="message">Your Thoughts On Sports</label></td>
+                <td>
+                    <textarea id="message" name="message" placeholder="Type here..." rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<footer>
+    <a href="index.html">Back to Index</a>
+</footer>
+</html>
